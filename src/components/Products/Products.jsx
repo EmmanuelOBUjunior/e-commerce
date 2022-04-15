@@ -10,11 +10,11 @@ const products = [
 const Products = () =>{
 	<main>
 		<Grid container justify = "center" spacing = {4}>
-			{products.map((products) =>{
+			{products.map((products) => (
 				<Grid item key={products.id} xs = {12} sm = {6} md = {4} lg ={3}>
 					<Products/>
 				</Grid>
-			})}
+			))}
 		</Grid>
 	</main>
 }
