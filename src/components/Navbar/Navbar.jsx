@@ -13,6 +13,14 @@ const Navbar = () => {
 				<img src = {logo} alt = "DevShop" height = "25px" className={classes.image}/>
 				DevShop
 			</Typography>
+			<div className={classes.grow}/>
+			<div className={classes.button}>
+				<IconButton aria-label = "Show Cart Items" color = "inherit">
+					<Badge badgeContent = {2} color = "secondary">
+						<ShoppingCart/>
+					</Badge>
+				</IconButton>
+			</div>
 		</Toolbar>
 	</AppBar>
 	</>
