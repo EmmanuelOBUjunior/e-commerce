@@ -8,6 +8,7 @@ const products = [
 ];
 
 const Products = () =>{
+	return(
 	<main>
 		<Grid container justify = "center" spacing = {4}>
 			{products.map((products) => (
@@ -17,6 +18,7 @@ const Products = () =>{
 			))}
 		</Grid>
 	</main>
+)
 }
 
 export default Products;
