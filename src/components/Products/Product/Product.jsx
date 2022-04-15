@@ -17,11 +17,11 @@ const Product = ({product}) => {
 			</div>	
 			<Typography variant = "h2" color = "textSecondary">{product.description}</Typography>
 			</CardContent>
-		<CardContent disableSpacing className={classes.cardActions}>
+		<CardActions disableSpacing className={classes.cardActions}>
 			<IconButton aria-label='Add to Cart'>
 				<AddShoppingCart/>			
 			</IconButton>
-		</CardContent>
+		</CardActions>
 	</Card>
 
   )
