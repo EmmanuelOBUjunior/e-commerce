@@ -3,8 +3,8 @@ import {Grid} from '@material-ui/core';
 import Product from './Product/Product';
 
 const products = [
-	{id: 1, name: "Shoe", description: "running shoe", price: "$5"},
-	{id: 2, name: "Macbook", description: "Apple Macbook", price: "$10"},
+	{id: 1, name: "Shoe", description: "running shoe", price: "$5", image:"https://www.pexels.com/photo/woman-lacing-up-her-gray-and-pink-nike-low-top-athletic-shoe-601177/"},
+	{id: 2, name: "Macbook", description: "Apple Macbook", price: "$10", image: "https://www.pexels.com/photo/macbook-pro-near-iphone-and-apple-fruit-18105/"},
 ];
 
 const Products = () =>{
