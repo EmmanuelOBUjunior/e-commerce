@@ -1,9 +1,8 @@
 import React from 'react';
 import {AppBar, Toolbar, IconButton, Badge, Menu, MenuItem,Typography} from "@material-ui/core";
 import  {ShoppingCart} from "@material-ui/icons";
-import logo from "../../assets/Clest_logo1";
-
 import useStyles from "./styles"
+import logo from "../../assets/Clest_logo1.png";
 
 const Navbar = () => {
 	const classes = useStyles();
