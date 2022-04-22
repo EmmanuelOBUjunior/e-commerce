@@ -4,7 +4,7 @@ import {Navbar, Products} from './components'
 const App = () => {
     return ( 
       <div>
-        {/* <Navbar/> */}
+        <Navbar/>
         <Products/>
       </div>
     )
